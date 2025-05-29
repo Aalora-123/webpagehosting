@@ -4,7 +4,7 @@ const websites = [
   { name: "Hindalco Service Desk", img: "H.gif", url: "https://hsd.adityabirla.com/MDLIncidentMgmt/EndUser_Dashboard.aspx" },
   { name: "Ekaayan Hindalco", img: "a.jpg", url: "https://onehindalco.adityabirla.com/" },
   { name: "Bill Tracking Syatem", img: "B.jpg", url: "http://10.36.42.9/BTS/Account/Login" },
-  { name: "File Movement And Management System", img: "F.JPG", url: "http://10.36.42.9/FMMS/frmlogin.aspx" },
+  { name: "File Movement & Management System", img: "F.JPG", url: "http://10.36.42.9/FMMS/frmlogin.aspx" },
   { name: "e-Permit", img: "EP.JPG", url: "http://10.36.121.75/PTW/" },
   { name: "Sprash-Centralized Payroll System", img: "S.JPG", url: "https://sparsh.adityabirla.com" },
   { name: "Shillim 365", img: "B.jpg", url: "https://hrfjne8ujy3mixh-hilapex.adb.ap-mumbai-1.oraclecloudapps.com/ords/r/xxhildsprd01/hindalco_hr_feedback_system/login?session=1313228016839712" },
