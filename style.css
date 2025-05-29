@@ -1,8 +1,23 @@
 
-
 body {
-  background-color: #f8f9fa;
+    
+  /* background-color:whitesmoke; */
+  background-image: url(cloud.png);
+   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+ max-width: 100%;
+  display: block;
+ 
+margin: 0;
+padding: 0%;
+box-sizing: border-box;
+
+  
 }
+
+
+
 
 .search-bar {
   padding: 2rem;
@@ -48,6 +63,11 @@ body {
 
 .card {
   transition: transform 0.3s;
+  /* background-color:transparent; */
+  box-shadow: inset;
+  
+  
+  
 }
 
 .card:hover {
@@ -68,6 +88,8 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  ;
+  
 }
 
 #scrollTopBtn {
@@ -77,7 +99,22 @@ body {
   display: none;
   z-index: 99;
 }
-footer{
-  min-height: 500px; 
+footer {
+  /* background-image: url('nice.jfif');  */
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  min-height: 100px; /* Adjust as needed */
+}
+
+img {
+  max-width: 20%;
+ 
+  float: TOP;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
