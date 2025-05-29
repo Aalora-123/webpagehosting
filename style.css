@@ -131,4 +131,7 @@ img {
   padding: 0;
   box-sizing: border-box;
 }
+span{
+    float:right;
+}
 
