@@ -2,20 +2,29 @@
 body {
     
   /* background-color:whitesmoke; */
-  background-image: url(cloud.png);
-   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
- max-width: 100%;
-  display: block;
+  /* background-image: url(cloud.png); */
+   /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+ /* max-width: 100%; */
+  /* display: block; */
  
 margin: 0;
 padding: 0%;
 box-sizing: border-box;
 
+
   
 }
+header{
 
+    background-image: url(cloud.png);
+   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+ max-width: 100%;
+  display: block;
+}
 
 
 
@@ -64,7 +73,8 @@ box-sizing: border-box;
 .card {
   transition: transform 0.3s;
   /* background-color:transparent; */
-  box-shadow: inset;
+  
+ 
   
   
   
@@ -88,7 +98,11 @@ box-sizing: border-box;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  ;
+  
+  
+}
+.row{
+  background-color: #ccc;
   
 }
 
