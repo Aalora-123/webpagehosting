@@ -1,17 +1,12 @@
 
+*{
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
 body {
     
-  /* background-color:whitesmoke; */
-  /* background-image: url(cloud.png); */
-   /* background-size: cover; */
-  /* background-repeat: no-repeat; */
-  /* background-position: center; */
- /* max-width: 100%; */
-  /* display: block; */
- 
-margin: 0;
-padding: 0%;
-box-sizing: border-box;
+  
 background-color: #ccc;
 
   
@@ -24,7 +19,8 @@ header{
   background-position: center;
  max-width: 100%;
   display: block;
-margin-top: 30px;
+  max-height:350px;
+  margin-top: 30px;
 }
 
 
@@ -33,6 +29,7 @@ margin-top: 30px;
   padding: 2rem;
   position: relative;
   transition: transform 0.3s ease;
+  
 }
 
 .search-bar:hover {
@@ -52,6 +49,7 @@ margin-top: 30px;
 .search-bar input[type="text"]:focus {
   border-color: #4b7aaa;
   outline: none;
+
 }
 
 #clearSearchBtn {
@@ -83,8 +81,8 @@ margin-top: 30px;
 
 .card:hover {
   transform: scale(1.02);
-  background-color: rgb(218, 218, 233);
-/*   color:white; */
+  background-color: rgb(231, 231, 238);
+  /* color:white; */
 }
 
 .site-image {
@@ -105,7 +103,7 @@ margin-top: 30px;
   
 }
 .row{
-  background-color: #ccc;
+  background-color:#ccc;
   
 }
 
@@ -127,16 +125,61 @@ footer {
 }
 
 img {
+  
   max-width: 20%;
- 
+ max-height:20% ;
   float: left;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 span{
-    float:right;
-     color: rgb(206, 42, 42);
+  float: right;
+  color: rgb(206, 42, 42);
   font-weight: bold;
+  margin-left: 20px;
 }
+
+
+
+.heading-row {
+  display: flex;
+  justify-content: space-between; /* Or use space-around / center / flex-start etc. */
+   align-items: center;
+           
+  margin-top: 0px;
+  gap: 10px;  
+  color: red;   
+                  /* Optional spacing between h3s */
+}
+h5{
+  display: grid;
+  float: left;
+  
+ 
+}
+
+
+/* h1,p{  */
+  /* color: white; */
+  /* font-weight: bold; */
+  /* position: relative; */
+  /* overflow: hidden; */
+  /* display: inline-block; */
+  /* background: linear-gradient(90deg, silver, white, silver); */
+  /* background-size: 200%; */
+  /* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+  /* animation: shine 5s infinite linear; */
+/* } */
+/*  */
+/* @keyframes shine { */
+  /* 0% { */
+    /* background-position: -200%; */
+  /* } */
+  /* 100% { */
+    /* background-position: 200%; */
+  /* } */
+/* } */
+
 
