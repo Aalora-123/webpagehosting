@@ -135,5 +135,7 @@ img {
 }
 span{
     float:right;
+     color: rgb(206, 42, 42);
+  font-weight: bold;
 }
 
