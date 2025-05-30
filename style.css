@@ -82,8 +82,8 @@ header{
 
 .card:hover {
   transform: scale(1.02);
-  background-color: rgb(141, 141, 214);
-  color:white;
+  background-color: rgb(218, 218, 233);
+/*   color:white; */
 }
 
 .site-image {
